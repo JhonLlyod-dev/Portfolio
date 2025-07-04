@@ -5,10 +5,18 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #101010;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.gradient-bg {
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #3b82f6, #a78bfa, #f63232);
+}
+body{
+  background-color: #101010;
+}
+

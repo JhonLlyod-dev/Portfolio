@@ -1,5 +1,69 @@
 @import "tailwindcss";
+@plugin "daisyui";
+@plugin "tailwindcss-motion";
 
 @utility flex-center{
   @apply flex justify-center items-center
+}
+
+@layer utilities {
+  .hover-gradient {
+    @apply transform transition-all ease-in duration-150;
+  }
+
+  .hover-gradient:hover {
+    @apply text-blue-500 scale-105 -translate-y-1
+  }
+
+  .text-nav{
+    @apply flex-center font-semibold  flex-col transition-all ease-in duration-100 cursor-pointer;
+  }
+  .text-nav::after{
+    @apply content-[''] h-[2px] w-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl transition-all ease-in duration-100 ;
+  }
+  .text-nav:hover{
+    @apply after:w-full bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+  }
+  .gradient-shadow {
+    position: relative;
+    z-index: 1;
+    
+  }
+
+  .gradient-shadow::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(135deg, #2563eb, #9333ea, transparent);
+    filter: blur(12px);
+    border-radius: inherit;
+    animation: fadeGlow 2s ease-in-out infinite;
+  }
+
+  .btn-anim{
+    @apply transition-all ease-in duration-100
+  }
+  .btn-anim:hover{
+    @apply scale-105
+  }
+  .btn-anim:active{
+    @apply scale-95;
+  }
+
+  .bg-gradient{
+    @apply bg-gradient-to-r from-blue-600 to-purple-600
+  }
+  .bg-gradient-fade{
+    @apply bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-md
+  }
+}
+
+@keyframes fadeGlow {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.9;
+  }
 }
