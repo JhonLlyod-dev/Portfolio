@@ -12,7 +12,7 @@
   }
 
   .hover-gradient:hover {
-    @apply text-blue-500 scale-105 -translate-y-1
+    @apply text-pink-600 scale-105 -translate-y-1
   }
 
   .text-nav{
@@ -41,6 +41,33 @@
     animation: fadeGlow 2s ease-in-out infinite;
   }
 
+  .card-animated {
+    @apply relative z-[1] transition-all motion-ease-in-cubic duration-150;
+
+    /* Hover movement */
+  }
+  .card-animated:hover {
+    @apply -translate-y-4;
+  }
+
+  /* Glow layer */
+  .card-animated::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    z-index: -1;
+    background: linear-gradient(135deg, #2563eb, #9333ea, transparent);
+    filter: blur(12px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  /* Glow visible on hover */
+  .card-animated:hover::after {
+    opacity: 0.5;
+  }
+
   .btn-anim{
     @apply transition-all ease-in duration-100
   }
@@ -55,6 +82,12 @@
     @apply bg-gradient-to-r from-blue-600 to-purple-600
   }
   .bg-gradient-fade{
+    @apply bg-gradient-to-r from-blue-600/8 to-purple-600/8 backdrop-blur-md
+  }
+  .text-gradient {
+    @apply bg-gradient-to-b from-blue-600 to-pink-600 bg-clip-text text-transparent
+  }
+  .bg-gradient-fade-20{
     @apply bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-md
   }
 }
