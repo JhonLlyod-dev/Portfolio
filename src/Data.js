@@ -2,7 +2,7 @@ export const Frontend = ['React', 'JavaScript', 'Tailwind CSS', 'HTML/CSS'];
 
 export const Backend = ['Node.js', 'Java', 'Firebase'];
 
-export const Tools = ['Git', 'GitHub', 'Vite', 'Vercel', 'Figma'];
+export const Tools = ['Git', 'Vite', 'Vercel', 'Figma'];
 
 
 export const exp = [
