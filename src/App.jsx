@@ -1,25 +1,17 @@
 import './App.css'
-import Header from './assets/Header';
-import Body  from './assets/Body';
-import Stack from './assets/Stack';
-import Experience from './assets/Experience';
-import Projects from './assets/Projects';
-import Contact from './assets/Contact';
-import Footer from './assets/Footer';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Landing from './Pages/Landing';
+import Thanks from './Pages/Thank';
 function App() {
 
 
   return (
-    <div className=" relative min-h-screen flex flex-col items-center text-center">
-      <Header/>
-      <Body/>
-      <Experience/>
-      <Stack/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Landing/>}/>
+        <Route path='/Thank-you' element={<Thanks/>}/>
+      </Routes>
+    </Router>
   )
 }
 

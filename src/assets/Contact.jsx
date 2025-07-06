@@ -26,6 +26,7 @@ export default function Contact(){
 
             {/* Hidden FormSubmit Settings */}
             <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://jhonllyod.vercel.app/Thank-you" />
 
             <div className="flex w-full flex-col lg:flex-row gap-4">
               <div className="w-full flex gap-1 flex-col">
