@@ -4,6 +4,8 @@ import Body  from './assets/Body';
 import Stack from './assets/Stack';
 import Experience from './assets/Experience';
 import Projects from './assets/Projects';
+import Contact from './assets/Contact';
+import Footer from './assets/footer';
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <Experience/>
       <Stack/>
       <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

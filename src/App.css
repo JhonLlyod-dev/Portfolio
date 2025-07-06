@@ -87,6 +87,9 @@
   .text-gradient {
     @apply bg-gradient-to-b from-blue-600 to-pink-600 bg-clip-text text-transparent
   }
+  .text-gradient-2 {
+    @apply bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent
+  }
   .bg-gradient-fade-20{
     @apply bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-md
   }

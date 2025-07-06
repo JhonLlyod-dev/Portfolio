@@ -39,11 +39,11 @@ export default function Projects(){
 
           {/* Action buttons */}
           <div className="text-white flex gap-4 font-bold pt-2">
-            <button className="flex items-center gap-2 px-3 py-1 rounded-md bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 transition cursor-pointer">
+            <button className="flex btn-anim items-center gap-2 px-3 py-1 rounded-md bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 transition cursor-pointer">
               <Github size={18} strokeWidth={1.5} />
               Code
             </button>
-            <button className="flex items-center gap-2 px-3 py-1 rounded-md border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition cursor-pointer">
+            <button className="flex btn-anim items-center gap-2 px-3 py-1 rounded-md border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition cursor-pointer">
               <SquareArrowOutUpRight size={18} strokeWidth={1.5} />
               Live
             </button>

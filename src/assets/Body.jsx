@@ -15,8 +15,8 @@ export default function Body(){
           <h2 className='text-xl md:text-2xl pb-1'>Full Stack Developer & UI/UX Designer</h2>
           <p className=' w-full text-sm px-2 md:w-[60%] md:text-lg '>Passionate about creating beautiful, functional web applications that solve real-world problems. 5+ years of experience in modern web technologies.</p>
           <div className='flex-center w-full gap-4 py-4 font-semibold mt-5'>
-            <buttton className='btn-anim cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex-center gap-2 py-2 px-4'><Mail size={18} strokeWidth={1.50}/>Get in Touch</buttton>
-            <buttton className='btn-anim cursor-pointer  border-1 border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white    rounded-lg flex-center gap-2 py-2 px-4'><Github size={18} strokeWidth={1.50}/>Github</buttton>
+            <a href='#Contact' className='btn-anim cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex-center gap-2 py-2 px-4'><Mail size={18} strokeWidth={1.50}/>Get in Touch</a>
+            <a href='https://github.com/JhonLlyod-dev' target='_blank' className='btn-anim cursor-pointer  border-1 border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white    rounded-lg flex-center gap-2 py-2 px-4'><Github size={18} strokeWidth={1.50}/>Github</a>
           </div>
         </div>
 
