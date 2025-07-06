@@ -3,7 +3,7 @@ import { Github,SquareArrowOutUpRight } from "lucide-react"
 
 export default function Projects(){
   return(
-  <div className="mt-10 w-full text-gray-400 text-justify flex flex-col  items-center gap-6 px-6 py-5 pb-10 md:px-10 lg:px-24 xl:px-44">
+  <div className="intersect-once intersect:motion-preset-fade motion-delay-400 mt-10 w-full text-gray-400 text-justify flex flex-col  items-center gap-6 px-6 py-5 pb-10 md:px-10 lg:px-24 xl:px-44">
     <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent py-2">
       Featured Projects
     </h1>

@@ -12,21 +12,21 @@ export default function Header(){
 
 
   return(
-    <div className="motion-preset-slide-down-sm flex fixed top-0 z-10 justify-between w-full items-center px-4 md:px-8 py-3  bg-[#101010]/30 border-b-[1px] border-purple-400 rounded-b-xl backdrop-blur-xs">
+    <div className="motion-preset-fade-sm flex fixed top-0 z-10 justify-between w-full items-center px-4 md:px-8 py-3  bg-[#101010]/30 border-b-[1px] border-purple-400 rounded-b-xl backdrop-blur-xs">
       <div className="flex-1 flex justify-start items-center ">
-        <h1 className="font-bold md:text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Jhon Llyod Navarro</h1>
+        <h1 className="motion-preset-slide-down-lg font-bold md:text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Jhon Llyod Navarro</h1>
       </div>
 
       <ul className={`hidden md:flex flex-1 md:gap-4  lg:gap-6 justify-center`}>
-        <li className="text-nav">About</li>
-        <li className="text-nav">Experience</li>
-        <li className="text-nav">Skills</li>
-        <li className="text-nav">Projects</li>
-        <li className="text-nav">Contact</li>
+        <li className="text-nav motion-preset-slide-down-lg motion-delay-100">About</li>
+        <li className="text-nav motion-preset-slide-down-lg motion-delay-200">Experience</li>
+        <li className="text-nav motion-preset-slide-down-lg motion-delay-300">Skills</li>
+        <li className="text-nav motion-preset-slide-down-lg motion-delay-400">Projects</li>
+        <li className="text-nav motion-preset-slide-down-lg motion-delay-500">Contact</li>
       </ul>
 
       <div className="flex flex-1 gap-5 justify-end items-center">
-        <button className="font-semibold btn-anim text-sm md:text-base flex items-center gap-2 py-2 px-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 "><Download size={16} strokeWidth={2.25} /> Resume</button>
+        <button className=" motion-preset-slide-down-lg motion-delay-600 font-semibold btn-anim text-sm md:text-base flex items-center gap-2 py-2 px-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 "><Download size={16} strokeWidth={2.25} /> Resume</button>
         <AlignJustify className="md:hidden active:text-blue-600" onClick={navMenu} />
       </div>
 

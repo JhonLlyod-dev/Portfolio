@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
 @plugin "tailwindcss-motion";
+@plugin "tailwindcss-intersect";
 
 @utility flex-center{
   @apply flex justify-center items-center

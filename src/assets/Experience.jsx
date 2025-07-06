@@ -5,12 +5,12 @@ import { Briefcase } from "lucide-react"
 export default function Experience(){
 
   return(
-    <div className="mt-10 w-full flex-center bg-gradient-fade flex-col p-6 py-8 gap-4">
+    <div className="intersect-once intersect:motion-preset-fade-lg mt-10 w-full flex-center bg-gradient-fade flex-col p-6 py-8 gap-4">
       <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-t from-blue-600 to-pink-600 bg-clip-text text-transparent">Work Experience</h1>
       <p className="text-gray-400">My work experienve throught the years</p>
       <div className="flex flex-col gap-8 md:px-10 lg:px-34 xl:px-44">
         {exp.map((data,i)=>(
-          <div key={i} className="flex md:nth-[even]:flex-row-reverse md:nth-[even]:text-start  text-end  w-full  gap-2">
+          <div key={i} className="intersect-once intersect:motion-preset-slide-up motion-delay-300 flex  md:nth-[even]:flex-row-reverse md:nth-[even]:text-start  text-end  w-full  gap-2">
 
             <div className="md:p-4 md:px-8rounded-lg w-0 md:w-[50%]"></div>
 

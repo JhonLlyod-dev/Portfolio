@@ -9,7 +9,7 @@ export default function Stack(){
 
     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
       {/* Frontend */}
-      <div className="bg-gradient-fade border border-blue-600 rounded-xl p-5">
+      <div className="intersect-once intersect:motion-preset-slide-up motion-delay-0 bg-gradient-fade border border-blue-600 rounded-xl p-5">
         <h2 className="text-lg md:text-xl font-semibold text-white mb-4">Frontend</h2>
         <div className="flex flex-wrap gap-3">
           {Frontend.map((item, i) => (
@@ -24,7 +24,7 @@ export default function Stack(){
       </div>
 
       {/* Backend */}
-      <div className="bg-gradient-fade border border-purple-600 rounded-xl p-5">
+      <div className="intersect-once intersect:motion-preset-slide-up motion-delay-200 bg-gradient-fade border border-purple-600 rounded-xl p-5">
         <h2 className="text-lg md:text-xl font-semibold text-white mb-4">Backend</h2>
         <div className="flex flex-wrap gap-3">
           {Backend.map((item, i) => (
@@ -39,7 +39,7 @@ export default function Stack(){
       </div>
 
       {/* Tools */}
-      <div className="bg-gradient-fade border border-pink-600 rounded-xl p-5">
+      <div className="intersect-once intersect:motion-preset-slide-up motion-delay-400 bg-gradient-fade border border-pink-600 rounded-xl p-5">
         <h2 className="text-lg md:text-xl font-semibold text-white mb-4">Tools & Others</h2>
         <div className="flex flex-wrap gap-3">
           {Tools.map((item, i) => (
