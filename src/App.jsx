@@ -5,7 +5,7 @@ import Stack from './assets/Stack';
 import Experience from './assets/Experience';
 import Projects from './assets/Projects';
 import Contact from './assets/Contact';
-import Footer from './assets/footer';
+import Footer from './assets/Footer';
 
 function App() {
 
