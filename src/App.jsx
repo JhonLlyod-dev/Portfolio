@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Landing/>}/>
-        <Route path='/Thank-you' element={<Thanks/>}/>
+        <Route path='/thank-you' element={<Thanks/>}/>
       </Routes>
     </Router>
   )
