@@ -1,5 +1,4 @@
 :root {
-
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,9 +13,12 @@
 .gradient-bg {
   padding: 5px;
   border-radius: 10px;
-  background: linear-gradient(to right, #3b82f6, #a78bfa, #f63232);
+  background: linear-gradient(to bottom, #3b82f6, #a78bfa, #f63232);
 }
-body{
+body {
   background-color: #101010;
+  overflow-y: hidden;
 }
+
+
 

@@ -2,7 +2,7 @@ import { Frontend,Backend,Tools } from '../Data';
 
 export default function Stack(){
   return(
-  <div className=' mt-10 w-full text-gray-400 text-justify flex flex-col gap-6 px-6 py-5 pb-10 md:px-10 lg:px-34 xl:px-44'>
+  <section id='Skills' className=' mt-10 w-full text-gray-400 text-justify flex flex-col gap-6 px-6 py-20 md:px-10 lg:px-34 xl:px-44'>
     <h1 className='text-2xl md:text-4xl self-start font-bold bg-gradient-to-r py-2 from-blue-600 to-purple-600 bg-clip-text text-transparent'>
       Skills & Technologies
     </h1>
@@ -54,7 +54,7 @@ export default function Stack(){
       </div>
     </div>
 
-  </div>
+  </section>
 
   )
 }

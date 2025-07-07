@@ -3,20 +3,20 @@ import { Github,SquareArrowOutUpRight } from "lucide-react"
 
 export default function Projects(){
   return(
-  <div className="intersect-once intersect:motion-preset-fade motion-delay-400 mt-10 w-full text-gray-400 text-justify flex flex-col  items-center gap-6 px-6 py-5 pb-10 md:px-10 lg:px-24 xl:px-44">
+  <section id='Projects' className="intersect-once intersect:motion-preset-fade motion-delay-400 mt-10 w-full text-gray-400 text-justify flex flex-col  items-center gap-10 px-6 py-20 md:px-10 lg:px-24 xl:px-44">
     <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent py-2">
       Featured Projects
     </h1>
 
-    <div className="grid gap-6 w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="flex flex-wrap justify-center gap-6 w-full">
       {featured.map((data, i) => (
         <div
           key={i}
-          className="flex flex-col justify-between gap-4 p-4 rounded-xl bg-gradient-fade-20 border border-purple-600/50 card-animated"
+          className="w-full sm:w-[48%] lg:w-[30%] flex flex-col justify-between gap-4 p-4 rounded-xl bg-gradient-fade-20 border border-purple-600/50 card-animated"
         >
           {/* Image */}
           <div className="p-4 flex items-center justify-center rounded-lg">
-            <img src={data.img} className="w-50 md:w-55 aspect-square object-contain" alt={data.name} />
+            <img src={data.img} className="w-full aspect-video object-cover rounded-md border-2 border-purple-600/50" alt={data.name} />
           </div>
 
           {/* Name & Description */}
@@ -39,19 +39,20 @@ export default function Projects(){
 
           {/* Action buttons */}
           <div className="text-white flex gap-4 font-bold pt-2">
-            <button className="flex btn-anim items-center gap-2 px-3 py-1 rounded-md bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 transition cursor-pointer">
+            <a href={data.Code} className="flex btn-anim items-center gap-2 px-3 py-1 rounded-md bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 transition cursor-pointer">
               <Github size={18} strokeWidth={1.5} />
               Code
-            </button>
-            <button className="flex btn-anim items-center gap-2 px-3 py-1 rounded-md border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition cursor-pointer">
+            </a>
+            <a href={data.Live} className="flex btn-anim items-center gap-2 px-3 py-1 rounded-md border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition cursor-pointer">
               <SquareArrowOutUpRight size={18} strokeWidth={1.5} />
               Live
-            </button>
+            </a>
           </div>
         </div>
       ))}
     </div>
-  </div>
+
+  </section>
 
   )
 }

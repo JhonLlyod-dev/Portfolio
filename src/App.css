@@ -2,10 +2,12 @@
 @plugin "daisyui";
 @plugin "tailwindcss-motion";
 @plugin "tailwindcss-intersect";
+@plugin 'tailwind-scrollbar';
 
 @utility flex-center{
   @apply flex justify-center items-center
 }
+
 
 @layer utilities {
   .hover-gradient {
@@ -94,6 +96,7 @@
   .bg-gradient-fade-20{
     @apply bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-md
   }
+
 }
 
 @keyframes fadeGlow {

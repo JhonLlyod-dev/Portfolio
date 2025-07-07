@@ -2,9 +2,9 @@ import { Mail,Github,Linkedin,Facebook,Send} from "lucide-react"
 
 export default function Contact(){
   return(
-    <section id="Contact" className="intersect-once intersect:motion-preset-fade motion-delay-200 mt-10 w-full text-gray-400 text-justify bg-gradient-fade flex flex-col  items-center gap-6 px-6 py-5 pb-10 md:px-10 lg:px-24 xl:px-44">
-      <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-t from-blue-600 to-pink-600 bg-clip-text text-transparent">Let's Work Together</h1>
-      <p className="text-center">I'm always interested in new opportunities and exciting projects. Let's discuss how we can bring your ideas to life.</p>
+    <section id="Contact" className="intersect-once intersect:motion-preset-fade motion-delay-200 mt-10 w-full text-gray-400 text-justify bg-gradient-fade flex flex-col  items-center gap-6 px-6 py-25 md:px-10 lg:px-20 xl:px-44">
+      <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-t p-1 from-blue-600 to-pink-600 bg-clip-text text-transparent">Let's Work Together</h1>
+      <p className="text-center mb-5">I'm always interested in new opportunities and exciting projects. Let's discuss how we can bring your ideas to life.</p>
       <div className="flex-center flex-col lg:flex-row lg:items-start gap-10">
         <div className="flex-center lg:items-start gap-4 flex-col ">
           <h1 className="text-gradient-2 font-bold text-xl md:text-2xl">Socials</h1>

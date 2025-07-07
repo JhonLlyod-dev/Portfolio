@@ -7,5 +7,5 @@ export default function ObserverProvider({ children }) {
     Observer.start();
   }, []);
 
-  return <>{children}</>;
+  return <div >{children}</div>;
 }

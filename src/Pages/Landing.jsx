@@ -10,7 +10,7 @@ function Landing() {
 
 
   return (
-    <div className=" relative min-h-screen flex flex-col items-center text-center">
+    <div className="scroll-smooth relative h-screen overflow-y-scroll flex flex-col items-center text-center">
       <Header/>
       <Body/>
       <Experience/>
