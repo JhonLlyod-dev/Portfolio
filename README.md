@@ -1,12 +1,78 @@
-# React + Vite
+# 🧑‍💻 Jhon Llyod Navarro – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! I'm a full-stack web developer with a focus on building responsive, functional applications that solve real-world problems. I enjoy creating seamless user experiences and designing interfaces that are both practical and intuitive.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 About Me
 
-## Expanding the ESLint configuration
+I'm a full-stack developer who values thoughtful user experience and practical design. I enjoy solving real-world problems and building tools that are not only functional but easy to use.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📍 Cagayan de Oro, Philippines
+🎓 Student at STI College CDO
+🟢 Available for work
+
+I spend my free time exploring new technologies, hanging out with my family, and sharing what I learn with others.
+
+---
+
+## 🚀 Quick Facts
+
+* 💼 Over a year of professional experience
+* 💪 Stronger focus on frontend development
+* 🛠️ Built 2+ production-level applications
+
+---
+
+## 💼 Work Experience
+
+### 🧑‍💻 Full-Stack Developer
+
+**Liceo de Cagayan University – SHS Department**
+🗓️ June 2025 – July 2025
+
+* Developed a web-based research repository system for students and faculty
+* Built using React, Tailwind CSS, Firebase, and Node.js
+* Designed and implemented role-based access, real-time data updates, and responsive UI
+* Deployed using Firebase Hosting with CI/CD
+
+---
+
+## 🛠️ Skills & Technologies
+
+### Frontend
+
+* React
+* JavaScript
+* Tailwind CSS
+* HTML/CSS
+
+### Backend
+
+* Node.js
+* Java
+
+### Tools & Platforms
+
+* Git
+* Vite
+* Vercel
+* Figma
+
+---
+
+## 🤝 Let's Work Together
+
+I'm always open to freelance, part-time, or full-time opportunities. If you have a project in mind or want to collaborate, feel free to reach out!
+
+📨 [navarro.jhonllyod2005@gmail.com](mailto:navarro.jhonllyod2005@gmail.com)
+
+---
+
+## 🔗 Social Links
+
+* [GitHub](#)
+* [LinkedIn](#)
+* [Facebook](#)
+
+---
