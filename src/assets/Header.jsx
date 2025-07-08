@@ -26,7 +26,7 @@ export default function Header(){
       </ul>
 
       <div className="flex flex-1 gap-5 justify-end items-center">
-        <button className=" motion-preset-slide-down-lg motion-delay-600 font-semibold btn-anim text-sm md:text-base flex items-center gap-2 py-2 px-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 "><Download size={16} strokeWidth={2.25} /> Resume</button>
+        <a  href="/Resume.pdf" download className=" motion-preset-slide-down-lg motion-delay-600 font-semibold btn-anim text-sm md:text-base flex items-center gap-2 py-2 px-4 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 "><Download size={16} strokeWidth={2.25} /> Resume</a>
         <AlignJustify className="md:hidden active:text-blue-600" onClick={navMenu} />
       </div>
 
