@@ -45,7 +45,7 @@
   }
 
   .card-animated {
-    @apply relative z-[1] transition-all motion-ease-in-cubic duration-150;
+    @apply relative z-[1] transition-all motion-ease-in-cubic duration-150 backdrop-blur-md;
 
     /* Hover movement */
   }

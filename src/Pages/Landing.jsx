@@ -5,11 +5,15 @@ import Experience from '../assets/Experience';
 import Projects from '../assets/Projects';
 import Contact from '../assets/Contact';
 import Footer from '../assets/Footer';
+import ParticlesComponent from '../assets/Live';
 
 
 function Landing() {
   return (
-      <div className="scroll-smooth h-screen overflow-y-scroll flex flex-col items-center text-center">
+    <div>
+      <ParticlesComponent/>
+      <div className="absolute z-2 scroll-smooth h-screen overflow-y-scroll flex flex-col items-center text-center">
+        
         <Header />
         <Body />
         <Experience />
@@ -17,8 +21,9 @@ function Landing() {
         <Projects />
         <Contact />
         <Footer />
-
       </div>
+    </div>
+
   );
 }
 

@@ -1,12 +1,12 @@
 
 export default function Footer(){
   return(
-    <div className="mt-10 w-full text-gray-400 text-justify flex flex-col  items-center gap-6 px-6 py-5 pb-0 md:px-10 ">
+    <div className=" w-full text-gray-400 text-justify flex flex-col  items-center gap-6 px-6 py-5 pt-20 pb-0 md:px-10 backdrop-blur-md">
     
       <div className="w-full flex justify-between gap-8">
         <div className="flex-1/2">
           <h1 className="font-semibold  text-white">Jhon Llyod Navarro</h1>
-          <p className="w-full lg:w-[50%]">A developer with a vision for building responsive and functional apps that solve real-world problems. I’m more experienced in front-end and always aim to make the user experience smoother and more efficient.</p>
+          <p className="w-full lg:w-[50%]">A developer with a vision for building responsive and functional apps that solve real-world problems. Experienced in front-end and always aim to make the user experience smoother and more efficient.</p>
         </div>
         <div className="flex-1 flex gap-2 flex-col">
           <h1 className="font-semibold  text-white">Navigations</h1>
