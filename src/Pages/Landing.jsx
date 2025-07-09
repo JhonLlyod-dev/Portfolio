@@ -17,7 +17,7 @@ function Landing() {
         <Projects />
         <Contact />
         <Footer />
-  
+
       </div>
   );
 }
