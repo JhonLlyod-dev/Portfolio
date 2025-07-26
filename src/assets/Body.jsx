@@ -1,4 +1,4 @@
-import profile from '../Images/Profile.jpg'
+import profile from '../Images/Profile.png'
 import { Mail,Github,Mouse,MapPinned,Phone } from "lucide-react"
 
 export default function Body(){
@@ -13,7 +13,7 @@ export default function Body(){
         <div className="motion-preset-slide-up-md gradient-shadow rounded-full p-2">
           <img
             src={profile}
-            className="w-40 md:w-50 rounded-full border-4 border-[#101010]"
+            className="w-40 md:w-50 rounded-full border-4 bg-gradient-fade-20 border-[#101010]"
             alt=""
           />
         </div>
