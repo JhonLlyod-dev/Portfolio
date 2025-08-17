@@ -24,7 +24,16 @@ export const featured = [
     description:
       'Full-stack web app for storing and browsing senior-high research papers, featuring real-time Firestore database, role-based authentication, responsive UI, and automated CI/CD via Firebase Hosting. Designed to simplify access and management for students and faculty.',
     Code: 'No Link yet',
-    Live: 'No Link yet'
+    Live: 'https://devbyjhon.web.app/'
+  },
+  {
+    name: 'DayvenAI',
+    tech: ['React', 'Tailwind CSS', 'Firebase', 'OpenAI API'],
+    img: 'https://imgur.com/LXUoHrS.png',
+    description:
+      'DayvenAI is an intelligent scheduling assistant designed to optimize time management through priority-based planning, conflict resolution, and proactive time optimization suggestions. It integrates with calendars, considers user availability and energy levels, and helps maintain work-life balance.',
+    Code: 'https://github.com/JhonLlyod-dev/DayvenAI',
+    Live: 'https://dayven-ai.vercel.app/'
   },
 
 ];
