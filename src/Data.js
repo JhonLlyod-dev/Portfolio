@@ -9,7 +9,7 @@ export const Tools = ['Git', 'Vite', 'Vercel', 'Figma'];
 
 export const exp = [
   {
-    date: 'June 2025 – July 2025',
+    date: 'June 2025 – November 2025',
     position: 'Full-Stack Developer',
     company: 'Liceo de Cagayan University – SHS Department',
     description: 'Developed and designed a web-based research repository to make accessing and managing research studies easier for students and faculty. Built with a real-time Firestore database, authentication, and a responsive user interface. Deployed via Firebase Hosting.'
