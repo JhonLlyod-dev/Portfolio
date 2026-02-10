@@ -46,7 +46,7 @@ export default function Projects(){
               <Github size={18} strokeWidth={1.5} />
               Code
             </a>
-            <a href={data.Live} className="flex btn-anim items-center gap-2 px-3 py-1 rounded-md border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition cursor-pointer">
+            <a href={data.Live} target="_blank" className="flex btn-anim items-center gap-2 px-3 py-1 rounded-md border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition cursor-pointer">
               <SquareArrowOutUpRight size={18} strokeWidth={1.5} />
               Live
             </a>

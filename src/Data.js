@@ -1,19 +1,25 @@
 
 
-export const Frontend = ['React', 'JavaScript', 'Tailwind CSS', 'HTML/CSS'];
+export const Frontend = ['React', 'Next.js', 'JavaScript','TypeScript', 'Tailwind CSS', 'HTML/CSS'];
 
 export const Backend = ['Node.js', 'Java', 'Firebase'];
 
-export const Tools = ['Git', 'Vite', 'Vercel', 'Figma'];
+export const Tools = ['Git', 'Vite', 'Vercel', 'Figma', 'Sanity'];
 
 
 export const exp = [
+    {
+    date: 'January 2026 – Present',
+    position: 'Full-Stack Developer/SEO Specialist',
+    company: 'Peach State Tech',
+    description: 'A web blog for connecting Georgia’s tech ecosystem with investors, entrepreneurs, and decision-makers. Built with Next.js, Tailwind CSS, and Sanity.io. Deployed on Vercel.'
+  },
   {
     date: 'June 2025 – November 2025',
     position: 'Full-Stack Developer',
     company: 'Liceo de Cagayan University – SHS Department',
     description: 'Developed and designed a web-based research repository to make accessing and managing research studies easier for students and faculty. Built with a real-time Firestore database, authentication, and a responsive user interface. Deployed via Firebase Hosting.'
-  }
+  },
 ];
 
 export const featured = [
@@ -35,7 +41,15 @@ export const featured = [
     Code: 'https://github.com/JhonLlyod-dev/DayvenAI',
     Live: 'https://dayven-ai.vercel.app/'
   },
-
+  {
+    name: 'Peach State Tech',
+    tech: ['React', 'Tailwind CSS', 'Typescript', 'Sanity.io'],
+    img: 'https://i.imgur.com/cnbogz0.jpeg',
+    description:
+      'Peach State Tech a web blog for connecting Georgia’s tech ecosystem with investors, entrepreneurs, and decision-makers. built for investors, entrepreneurs, elected officials, and professionals who want to stay informed about the companies shaping Georgia’s technology landscape.',
+    Code: 'No Link yet',
+    Live: 'https://peachstate.tech/'
+  },
 ];
 
 
