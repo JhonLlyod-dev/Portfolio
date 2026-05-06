@@ -52,6 +52,7 @@ export default function Stack(){
           ))}
         </div>
       </div>
+      
     </div>
 
   </section>

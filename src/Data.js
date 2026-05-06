@@ -4,7 +4,7 @@ export const Frontend = ['React', 'Next.js', 'JavaScript','TypeScript', 'Tailwin
 
 export const Backend = ['Node.js', 'Java', 'Firebase'];
 
-export const Tools = ['Git', 'Vite', 'Vercel', 'Figma', 'Sanity'];
+export const Tools = ['Git', 'Vite', 'Vercel', 'Figma', 'Sanity', 'n8n'];
 
 
 export const exp = [
