@@ -44,7 +44,7 @@ export const featured = [
   {
     name: 'Peach State Tech',
     tech: ['React', 'Tailwind CSS', 'Typescript', 'Sanity.io'],
-    img: 'https://i.imgur.com/cnbogz0.jpeg',
+    img: 'https://i.imgur.com/q7u3tH3.png',
     description:
       'Peach State Tech a web blog for connecting Georgia’s tech ecosystem with investors, entrepreneurs, and decision-makers. built for investors, entrepreneurs, elected officials, and professionals who want to stay informed about the companies shaping Georgia’s technology landscape.',
     Code: 'No Link yet',

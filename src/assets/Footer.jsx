@@ -26,6 +26,7 @@ export default function Footer(){
             <li className="transition hover:text-white hover:underline">Web development</li>
             <li className="transition hover:text-white hover:underline">UI/UX Design</li>
             <li className="transition hover:text-white hover:underline">Front-end Development</li>
+            <li className="transition hover:text-white hover:underline">AI Automation</li>
           </ul>
         </div>
 

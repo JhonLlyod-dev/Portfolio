@@ -39,7 +39,6 @@ export default function Projects(){
               ))}
             </div>
           </div>
-
           {/* Action buttons */}
           <div className="text-white flex gap-4 font-bold pt-2">
             <a href={data.Code} className="flex btn-anim items-center gap-2 px-3 py-1 rounded-md bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 transition cursor-pointer">
