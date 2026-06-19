@@ -4,7 +4,7 @@ export default function Stack(){
   return(
   <section id='Skills' className=' mt-10 w-full text-gray-400 text-justify flex flex-col gap-6 px-6 py-20 md:px-10 lg:px-34 xl:px-44'>
     <h1 className='text-2xl md:text-4xl self-start font-bold bg-gradient-to-r py-2 from-blue-600 to-purple-600 bg-clip-text text-transparent'>
-      Skills & Technologies
+      What I'm Packin'
     </h1>
 
     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">

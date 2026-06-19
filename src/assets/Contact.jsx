@@ -3,8 +3,8 @@ import { Mail,Github,Linkedin,Facebook,Send} from "lucide-react"
 export default function Contact(){
   return(
     <section id="Contact" className="intersect-once intersect:motion-preset-fade motion-delay-200 mt-10 w-full text-gray-400 text-justify bg-gradient-fade flex flex-col  items-center gap-6 px-6 py-25 md:px-10 lg:px-20 xl:px-44 ">
-      <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-t p-1 from-blue-600 to-pink-600 bg-clip-text text-transparent">Let's Work Together</h1>
-      <p className="text-center mb-5">I'm always interested in new opportunities and exciting projects. Let's discuss how we can bring your ideas to life.</p>
+      <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-t p-1 from-blue-600 to-pink-600 bg-clip-text text-transparent">Ready to Cook? Let's Go</h1>
+      <p className="text-center mb-5">Always down for new opportunities and dope projects fr. Let's link up and make your ideas go crazy.</p>
       <div className="flex-center flex-col lg:flex-row lg:items-start gap-10">
         <div className="flex-center lg:items-start gap-4 flex-col ">
           <h1 className="text-gradient-2 font-bold text-xl md:text-2xl">Socials</h1>
@@ -22,7 +22,7 @@ export default function Contact(){
             method="POST"
             className="intersect-once intersect:motion-preset-fade motion-delay-400 flex-center flex-col gap-4 bg-[#101010]/20 text-white font-semibold border-1 border-purple-600 rounded-lg p-4"
           >
-            <h1 className="text-gradient-2 font-bold text-xl md:text-2xl">Get in touch</h1>
+            <h1 className="text-gradient-2 font-bold text-xl md:text-2xl">Send It</h1>
 
             {/* Hidden FormSubmit Settings */}
             <input type="hidden" name="_captcha" value="false" />

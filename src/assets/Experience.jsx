@@ -7,7 +7,7 @@ export default function Experience(){
   return(
     <div id="Experience" className="intersect-once intersect:motion-preset-fade-lg mt-10 w-full flex-center bg-gradient-fade flex-col p-6 py-20 xl:pb-25 gap-4">
       <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-t from-blue-600 to-pink-600 bg-clip-text text-transparent">Work Experience</h1>
-      <p className="text-gray-400">My work experienve throught the years</p>
+      <p className="text-gray-400">Years in the Game, Here's the Proof</p>
       <div className="flex flex-col gap-8 md:px-10 lg:px-34 xl:px-44">
         {exp.map((data,i)=>(
           <div key={i} className=" flex  md:nth-[even]:flex-row-reverse md:nth-[even]:text-start  text-end  w-full  gap-2">

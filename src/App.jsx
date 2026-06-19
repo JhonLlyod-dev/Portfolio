@@ -4,6 +4,7 @@ import Landing from './Pages/Landing';
 import Thanks from './Pages/Thank';
 import ObserverProvider from './Observer';
 import NotFound from './Pages/Error';
+import Builds from './Pages/Builds';
 function App() {
 
 
@@ -19,6 +20,11 @@ function App() {
           
         <Route path='/thank-you' element={<Thanks/>}/>
         <Route path="*" element={<NotFound />} />
+        <Route path="/projects" element={
+          <ObserverProvider> 
+            <Builds/> 
+          </ObserverProvider>
+        } />
       </Routes>
     </Router>
   )
