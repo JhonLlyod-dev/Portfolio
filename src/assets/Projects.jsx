@@ -81,7 +81,7 @@ export default function Projects(){
         </div>
       ))}
     </div>
-    <Link to="/projects" className="font-semibold text-white btn-anim motion-preset-slide-right-md cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex-center gap-2 py-2 px-4">
+    <Link to="/projects?category=website" className="font-semibold text-white btn-anim motion-preset-slide-right-md cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex-center gap-2 py-2 px-4">
       Check Out the Rest of My Builds
       <ArrowRight />
     </Link>

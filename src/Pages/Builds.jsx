@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Header from '../assets/Header';
 import ParticlesComponent from '../assets/Live';
 import Footer from '../assets/Footer';
@@ -14,9 +14,39 @@ const tabKeyMap = {
   Automations: "automation",
 };
 
+// reverse lookup: category param -> tab label
+const categoryToTab = {
+  website: "Websites",
+  automation: "Automations",
+};
+
 export default function Builds() {
-  const [activeTab, setActiveTab] = useState("Websites");
+  // Fetch the URL first - if it has a valid category, use it; otherwise default to "Websites"
+  const getCategoryFromUrl = () => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('category');
+  };
+
+  const initialTab = categoryToTab[getCategoryFromUrl()] || "Websites";
+
+  const [activeTab, setActiveTab] = useState(initialTab);
   const [selectedProject, setSelectedProject] = useState(null);
+
+  // If there's no (or an invalid) category in the URL, set it to the default
+  useEffect(() => {
+    if (!categoryToTab[getCategoryFromUrl()]) {
+      const params = new URLSearchParams(window.location.search);
+      params.set('category', tabKeyMap[activeTab]);
+      window.history.replaceState(null, '', `${window.location.pathname}?${params.toString()}`);
+    }
+  }, []);
+
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+    const params = new URLSearchParams(window.location.search);
+    params.set('category', tabKeyMap[tab]);
+    window.history.pushState(null, '', `${window.location.pathname}?${params.toString()}`);
+  };
 
   const filtered = projects.filter(p => p.type === tabKeyMap[activeTab]);
 
@@ -40,7 +70,7 @@ export default function Builds() {
               Stuff I Built That Actually Slaps
             </h1>
             <p className="text-gray-400 text-sm md:text-base max-w-xl">
-              No cap, every project here is a W. Real builds, real solutions — shipped and out in the wild.
+              No cap, every project here is a W. Real builds, real solutions - shipped and out in the wild.
             </p>
           </div>
 
@@ -48,7 +78,7 @@ export default function Builds() {
             {tabs.map((tab) => (
               <button
                 key={tab}
-                onClick={() => setActiveTab(tab)}
+                onClick={() => handleTabChange(tab)}
                 className={`px-5 py-2 rounded-lg text-sm font-semibold transition-all duration-200 cursor-pointer btn-anim
                   ${activeTab === tab
                     ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
@@ -63,7 +93,7 @@ export default function Builds() {
           {filtered.length === 0 ? (
             <div className="flex flex-col items-center gap-3 py-20 text-gray-500">
               <Code2 size={40} strokeWidth={1} />
-              <p className="text-sm">Nothing dropped here yet — stay tuned fr 👀</p>
+              <p className="text-sm">Nothing dropped here yet - stay tuned fr 👀</p>
             </div>
           ) : (
             <div className="flex flex-wrap justify-center gap-8 w-full">
@@ -81,7 +111,6 @@ export default function Builds() {
                       className="w-full aspect-video object-cover  transition-all duration-300"
                       alt={data.name}
                     />
-                    
                   </div>
 
                   <div className="flex flex-col gap-3 p-4 flex-1 text-left">
@@ -111,6 +140,7 @@ export default function Builds() {
                       <a
                         href={data.Code}
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="btn-anim flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 transition cursor-pointer"
                       >
                         <Github size={15} strokeWidth={1.5} />
@@ -126,6 +156,7 @@ export default function Builds() {
                       <a
                         href={data.Live}
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="btn-anim flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition cursor-pointer"
                       >
                         <SquareArrowOutUpRight size={15} strokeWidth={1.5} />
@@ -158,7 +189,6 @@ export default function Builds() {
                 className="w-full aspect-video object-cover "
                 alt={selectedProject.name}
               />
-              
               <button
                 onClick={() => setSelectedProject(null)}
                 className="absolute top-3 right-3 bg-black/50 hover:bg-black/80 text-white rounded-full p-1.5 transition btn-anim cursor-pointer"
@@ -197,6 +227,7 @@ export default function Builds() {
                   <a
                     href={selectedProject.Code}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="btn-anim flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 transition cursor-pointer"
                   >
                     <Github size={15} strokeWidth={1.5} />
@@ -212,6 +243,7 @@ export default function Builds() {
                   <a
                     href={selectedProject.Live}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="btn-anim flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition cursor-pointer"
                   >
                     <ExternalLink size={15} strokeWidth={1.5} />
