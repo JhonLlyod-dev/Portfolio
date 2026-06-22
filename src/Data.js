@@ -60,6 +60,16 @@ export const featured = [
 
 export const projects = [
   {
+    name: 'AI Resume Screening & Candidate Shortlisting Pipeline',
+    tech: ['n8n', 'Gmail API', 'Google Sheets', 'AI Agent'],
+    img: 'https://i.imgur.com/qTUg0EW.png',
+    description: 'Automatically processes incoming job applications by extracting resumes from emails, capturing candidate information, and storing it in Google Sheets. AI agents analyze and score resumes against job requirements using a 100-point evaluation system, generate screening remarks, rank candidates by suitability, and notify hiring managers of high-value applicants, significantly reducing manual recruitment workload.',
+    Code: 'No Code',
+    Live: 'https://www.loom.com/share/e086c865f7f346a1bdf8fd29399f47bf',
+    type: 'automation',
+    access: 'private'
+  },
+  {
     name: 'AI-Powered Blog Repurposing for Guest Posts & Social Media',
     tech: ['n8n', 'UploadPost API', 'AI Agent', 'Google API'],
     img: 'https://i.imgur.com/ep41Iw5.png',
