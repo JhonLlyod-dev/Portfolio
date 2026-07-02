@@ -1,0 +1,22 @@
+{
+  "name": "Jhon Llyod Navarro Portfolio",
+  "short_name": "Jhon.Dev",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff ",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/Avatar.png",
+      "sizes": "192x192",
+      "type": "image/png",
+        "purpose": "maskable any"
+    },
+    {
+      "src": "/Avatar.png",
+      "sizes": "512x512",
+      "type": "image/png",
+        "purpose": "maskable any"
+    }
+  ]
+}
