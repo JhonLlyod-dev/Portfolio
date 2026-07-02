@@ -10,11 +10,10 @@ export default function Header(){
   }
 
 
-
   return(
     <div className="motion-preset-fade-sm flex fixed top-0 z-5 justify-between w-full items-center px-4 md:px-8 py-3  bg-[#101010]/30 border-b-[1px] border-purple-400 rounded-b-xl backdrop-blur-xs">
       <div className="flex-1 flex justify-start items-center ">
-        <h1 className="motion-preset-slide-down-lg font-bold md:text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"><a href="#Home">Jhon Llyod Navarro</a></h1>
+        <h1 className="motion-preset-slide-down-lg font-extrabold md:text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent tracking-wide hover:scale-105 transition-all ease-in"><a href="#Home">Jhon.Dev</a></h1>
       </div>
 
       <ul className={`hidden md:flex flex-1 md:gap-4  lg:gap-6 justify-center`}>

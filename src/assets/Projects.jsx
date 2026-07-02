@@ -8,7 +8,7 @@ export default function Projects(){
 
   return(
   <section id='Projects' className="intersect-once intersect:motion-preset-fade motion-delay-400 mt-10 w-full text-gray-400 text-justify flex flex-col items-center gap-10 px-6 py-20 md:px-10 lg:px-24 xl:px-44">
-    <h2 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent py-2">
+    <h2 className="text-2xl md:text-4xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent py-2">
       My Best Drops fr
     </h2>
 
@@ -16,7 +16,7 @@ export default function Projects(){
       {features.map((data, i) => (
         <div
           key={i}
-          className="w-full sm:w-[48%] lg:w-[30%] flex flex-col justify-between rounded-xl bg-[rgba(255,255,255,0.02)] border border-white/10 card-animated overflow-hidden cursor-pointer relative"
+          className="w-full sm:w-[48%] lg:w-[30%] flex flex-col justify-between rounded-xl bg-[rgba(255,255,255,0.02)] border border-white/10 card-animated overflow-hidden  relative"
         >
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 z-10" />
 
@@ -56,7 +56,7 @@ export default function Projects(){
               <a
                 href={data.Code}
                 target="_blank"
-                className="btn-anim flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 transition cursor-pointer"
+                className="btn-anim flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:opacity-90 transition "
               >
                 <Github size={15} strokeWidth={1.5} />
                 Code
@@ -71,7 +71,7 @@ export default function Projects(){
               <a
                 href={data.Live}
                 target="_blank"
-                className="btn-anim flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition cursor-pointer"
+                className="btn-anim flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold border border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition "
               >
                 <SquareArrowOutUpRight size={15} strokeWidth={1.5} />
                 Live
@@ -81,7 +81,7 @@ export default function Projects(){
         </div>
       ))}
     </div>
-    <Link to="/projects?category=website" className="font-semibold text-white btn-anim motion-preset-slide-right-md cursor-pointer bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex-center gap-2 py-2 px-4">
+    <Link to="/projects?category=website" className="font-bold text-white btn-anim motion-preset-slide-right-md  bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex-center gap-2 py-2 px-4">
       Check Out the Rest of My Builds
       <ArrowRight />
     </Link>

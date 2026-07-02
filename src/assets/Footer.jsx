@@ -33,7 +33,7 @@ export default function Footer(){
       </div>
 
       <footer class=" w-full text-center text-gray-400 text-sm py-6 border-t-1 border-gray-400">
-        © 2025 Jhon Llyod Navarro. All rights reserved.
+        © 2026 Jhon Llyod Navarro. All rights reserved.
       </footer>
     </div>
   )

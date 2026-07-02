@@ -16,8 +16,9 @@
   background: linear-gradient(to bottom, #3b82f6, #a78bfa, #f63232);
 }
 body {
-background-color: #101010;
-overflow-y: hidden;
+  background-color: #101010;
+  overflow-y: hidden;
+  cursor: url("/cursor.png") 2 2, pointer !important;
 }
 
 #particles canvas {
@@ -25,6 +26,12 @@ overflow-y: hidden;
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+html,
+body,
+* {
+  cursor: url("/cursor.png") 4 4, auto;
 }
 
 

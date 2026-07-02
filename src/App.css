@@ -19,7 +19,7 @@
   }
 
   .text-nav{
-    @apply flex-center font-semibold  flex-col transition-all ease-in duration-100 cursor-pointer;
+    @apply flex-center font-semibold  flex-col transition-all ease-in duration-100 ;
   }
   .text-nav::after{
     @apply content-[''] h-[2px] w-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl transition-all ease-in duration-100 ;

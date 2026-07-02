@@ -1,24 +1,58 @@
 
+export const Frontend = [
+  { name: 'React', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png' },
+  { name: 'Next.js', icon: 'https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png' },
+  { name: 'JavaScript', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxhasGvScf0RdhR8HylvyG1r4SSmtf_78RUNEfZ2LY8A&s=10' },
+  { name: 'TypeScript', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo_gx9JpPkWLZa_QZd3p6igUkGuLIkSZieibMjvv7SCA&s' },
+  { name: 'Tailwind CSS', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/960px-Tailwind_CSS_Logo.svg.png?_=20230715030042' },
+  { name: 'Vite', icon: 'https://antfu.gallerycdn.vsassets.io/extensions/antfu/vite/0.0.1/1614550887590/Microsoft.VisualStudio.Services.Icons.Default' },
+];
 
-export const Frontend = ['React', 'Next.js', 'JavaScript','TypeScript', 'Tailwind CSS', 'HTML/CSS'];
+export const Backend = [
+  { name: 'Node.js', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png' },
+  { name: 'Java Springboot', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1280px-Spring_Boot.svg.png' },
+];
 
-export const Backend = ['Node.js', 'Java', 'Firebase'];
+export const Database = [
+  { name: 'Firebase', icon: 'https://www.gstatic.com/devrel-devsite/prod/v11431966d26d9f049ef61662c2b798f1cdee8af320f1ba0f77a43eee64301d60/firebase/images/touchicon-180.png' },
+  { name: 'PostgreSQL', icon: 'https://www.postgresql.org/media/img/about/press/elephant.png' },
+];
 
-export const Tools = ['Git', 'Vite', 'Vercel', 'Figma', 'Sanity', 'n8n'];
+export const Tools = [
+  { name: 'Lovable', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIoX_ywjK35JVoxEdP8RlrnnMD3IZIhAGE7-mVdh5_Tg&s=10' },
+  { name: 'Claude', icon: 'https://cyclr.com/wp-content/uploads/2025/05/Claude-ai-logo.png' },
+  { name: 'ChatGPT', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/960px-ChatGPT_logo.svg.png?_=20230903231118' },
+  { name: 'Git', icon: 'https://avatars.githubusercontent.com/u/18133?s=200&v=4' },
+  { name: 'Vercel', icon: 'https://karmanivero.us/assets/images/logo-vercel.png' },
+  { name: 'Figma', icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968705.png' },
+  { name: 'Sanity', icon: 'https://www.represent.no/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ftg407r31%2Fproduction%2F39f54d8453cf0502b7fc74c1d9ad4d1bb005c697-1080x1080.jpg%3Fauto%3Dformat&w=3840&q=75' },
+];
+
+export const Automation = [
+  { name: 'n8n', icon: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/n8n-icon.png' },
+  { name: 'Make', icon: 'https://cdn.prod.website-files.com/699580632475d346db320d30/69e627d4e71e9258e5a38a13_69cba51d0e7d36d58d43a764_Make.png' },
+  { name: 'GoHighLevel', icon: 'https://efficient.app/_next/image?url=https%3A%2F%2Fassets.efficient.app%2Fafc27ce0fbea1e66f0eb12c019ca660698feaeec0375642d533a94ddf5624a64.png&w=3840&q=75' },
+];
+
+export const SEO = [
+  { name: 'Search Console', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1sDwaWcSPOwkOvlhWXy6xhVm12Nt5TeYmPfj2h3J0A&s=10' },
+  { name: 'Ahrefs', icon: 'https://cdn.cemoh.com/cemoh/media/images/ahrefs_SEO_Tool.original.png' },
+  { name: 'Google Analytics', icon: 'https://avatars.githubusercontent.com/u/4327788?s=280&v=4' },
+];
 
 
 export const exp = [
     {
     date: 'January 2026 – Present',
-    position: 'Full-Stack Developer/SEO Specialist',
+    position: 'Web Developer, Automation & SEO Specialist',
     company: 'Peach State Tech',
-    description: 'A web blog for connecting Georgia’s tech ecosystem with investors, entrepreneurs, and decision-makers. Built with Next.js, Tailwind CSS, and Sanity.io. Deployed on Vercel.'
+    description: 'Led the development of a full-stack web platform, optimized its SEO for improved search visibility, and built automation systems that streamlined workflows and increased operational efficiency.'
   },
   {
-    date: 'June 2025 – November 2025',
+    date: 'June 2025 – Present',
     position: 'Full-Stack Developer',
     company: 'Liceo de Cagayan University – SHS Department',
-    description: 'Developed and designed a web-based research repository to make accessing and managing research studies easier for students and faculty. Built with a real-time Firestore database, authentication, and a responsive user interface. Deployed via Firebase Hosting.'
+    description: 'Developed a full-stack research repository with real-time data, authentication, and a responsive interface, delivering a reliable platform for efficiently storing, managing, and accessing institutional research.'
   },
 ];
 
@@ -59,6 +93,15 @@ export const featured = [
 
 
 export const projects = [
+    {
+    name: 'Improved Zara UI/UX',
+    tech: ['React JS', 'Tailwind CSS', 'HTML', 'Javascript'],
+    img: 'https://i.imgur.com/S2EvoQI.png',
+    description: " This is a UI/UX redesign of the official Zara website created for a school project. The goal was to improve the website's usability and overall user experience while preserving Zara's brand identity. Disclaimer: All logos, images, and trademarks belong to Zara and are used solely for educational and portfolio purposes. I do not claim ownership of any Zara assets.",
+    Live: 'https://zara-clone-fawn.vercel.app/',
+    type: 'website',
+    access: 'public'
+  },
   {
     name: 'AI Resume Screening & Candidate Shortlisting Pipeline',
     tech: ['n8n', 'Gmail API', 'Google Sheets', 'AI Agent'],
