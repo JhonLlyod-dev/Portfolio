@@ -45,8 +45,14 @@ export const exp = [
     {
     date: 'January 2026 – Present',
     position: 'Web Developer, Automation & SEO Specialist',
-    company: 'Peach State Tech',
+    company: 'Thomas Marketing Solutions',
     description: 'Led the development of a full-stack web platform, optimized its SEO for improved search visibility, and built automation systems that streamlined workflows and increased operational efficiency.'
+  },
+  {
+    date: 'June 2026 – July 2026',
+    position: 'Vibe Coder & Prompt Engineer',
+    company: 'WebDesignFLA',
+    description: 'Recovered and rebuilt hacked or inaccessible websites using archived snapshots, leveraging AI-assisted development to recreate modern, responsive sites while managing version control and production deployment.'
   },
   {
     date: 'June 2025 – Present',
