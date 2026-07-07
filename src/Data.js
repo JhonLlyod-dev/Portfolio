@@ -38,6 +38,8 @@ export const SEO = [
   { name: 'Search Console', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu1sDwaWcSPOwkOvlhWXy6xhVm12Nt5TeYmPfj2h3J0A&s=10' },
   { name: 'Ahrefs', icon: 'https://cdn.cemoh.com/cemoh/media/images/ahrefs_SEO_Tool.original.png' },
   { name: 'Google Analytics', icon: 'https://avatars.githubusercontent.com/u/4327788?s=280&v=4' },
+  { name: 'Core Web Vitals', icon: 'https://www.gstatic.com/pagespeed/insights/ui/logo/favicon_48.png' },
+  { name: 'Bing Webmaster Tools', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6niefvHIrlbGV_kWMJV7_kgCmkG4GpqvpBkqZ148MMQ&s=10' },
 ];
 
 
@@ -99,11 +101,30 @@ export const featured = [
 
 
 export const projects = [
+        {
+    name: 'Automated SEO workflow',
+    tech: ['n8n','Webhook', 'IndexNow API', 'Telegram'],
+    img: 'https://i.imgur.com/stKoIkp.png',
+    description: "Automatically submits newly published articles to IndexNow, notifying supported search engines for faster indexing. It includes the article title and URL and sends the indexing request immediately after publication.",
+    Live: 'https://www.loom.com/share/7ab2594a678f436db2c96b41702a4fcf',
+    type: 'automation',
+    access: 'private'
+  },
+      {
+    name: 'Lead generation using google maps and serper API',
+    tech: ['n8n','Google Maps', 'Gmail API', 'Serper API'],
+    img: 'https://i.imgur.com/EuFbu2u.png',
+    description: "Automatically finds local businesses with no website across multiple cities on a schedule, cross-checks Google Places to confirm and grab a phone number, then hunts down a Facebook/Instagram via AI if that's missing too — all logged into a Google Sheet ready for your outreach workflow to pick up.",
+    Live: 'https://www.loom.com/share/116ac1eab5374bbf9758a0e3843ad0d5',
+    type: 'automation',
+    access: 'private'
+  },
     {
     name: 'Improved Zara UI/UX',
     tech: ['React JS', 'Tailwind CSS', 'HTML', 'Javascript'],
     img: 'https://i.imgur.com/S2EvoQI.png',
     description: " This is a UI/UX redesign of the official Zara website created for a school project. The goal was to improve the website's usability and overall user experience while preserving Zara's brand identity. Disclaimer: All logos, images, and trademarks belong to Zara and are used solely for educational and portfolio purposes. I do not claim ownership of any Zara assets.",
+    Code: 'https://github.com/JhonLlyod-dev/Zara_CLone',
     Live: 'https://zara-clone-fawn.vercel.app/',
     type: 'website',
     access: 'public'
