@@ -5,27 +5,26 @@ import Thanks from './Pages/Thank';
 import ObserverProvider from './Observer';
 import NotFound from './Pages/Error';
 import Builds from './Pages/Builds';
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
-
-
   return (
     <Router>
       <Routes>
-        
         <Route path='/' element={
           <ObserverProvider>
             <Landing/>
           </ObserverProvider>
-          }/>
-          
+        }/>
         <Route path='/thank-you' element={<Thanks/>}/>
-        <Route path="*" element={<NotFound />} />
         <Route path="/projects" element={
-          <ObserverProvider> 
-            <Builds/> 
+          <ObserverProvider>
+            <Builds/>
           </ObserverProvider>
-        } />
+        }/>
+        <Route path="*" element={<NotFound />} />
       </Routes>
+      <Analytics />
     </Router>
   )
 }
