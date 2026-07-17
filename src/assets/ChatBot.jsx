@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { MessageCircle, X, Send, Loader2 } from "lucide-react";
 import Avatar from "../Images/Avatar.png";
-import Yuji from "../Images/Yuji.png";
+import Yuji from "../Images/yuji.png";
 import { sendMessage } from "../service/AI";
 import MarkdownMessage from "../service/MarkdownMessage";
 
