@@ -65,16 +65,16 @@ export const exp = [
 ];
 
 export const featured = [
-  {
-    name: 'Liceo U SHS Research Repository',
-    tech: ['React', 'Firebase', 'Tailwind CSS'],
-    img: 'https://i.imgur.com/Fb1nA0s.png',
+{
+    name: 'RoastMyPC',
+    tech: ['Next.js', 'Tailwind CSS', 'TypeScript', 'OpenAI (GPT-4o)', 'Kokoro TTS'],
+    img: 'https://i.imgur.com/SsnFeeH.png',
     description:
-      'Full-stack web app for storing and browsing senior-high research papers, featuring real-time Firestore database, role-based authentication, responsive UI, and automated CI/CD via Firebase Hosting. Designed to simplify access and management for students and faculty.',
-    Code: 'No Link yet',
-    Live: 'https://devbyjhon.web.app/',
+      'AI-powered, 18+ PC roast generator with an uncensored comedy persona. Users upload a photo or type their specs, and the app pipelines a vision model to describe the build, an LLM to write a savage roast, and a TTS engine to read it aloud with autoplay. Features drag-and-drop upload, a savage-o-meter intensity slider, full dark/light theming, and a terminal-glitch aesthetic built around a two-stage async result flow.',
+    Code: 'https://github.com/JhonLlyod-dev/roastmypc',
+    Live: 'https://roastmypc.vercel.app/',
     type: 'website',
-    access: 'private'
+    access: 'public'
   },
   {
     name: 'AI-Powered Social Media Captioning & Scheduled Publishing Workflow',
@@ -101,7 +101,18 @@ export const featured = [
 
 
 export const projects = [
-        {
+  {
+    name: 'RoastMyPC',
+    tech: ['Next.js', 'Tailwind CSS', 'TypeScript', 'OpenAI (GPT-4o)', 'Kokoro TTS'],
+    img: 'https://i.imgur.com/SsnFeeH.png',
+    description:
+      'AI-powered, 18+ PC roast generator with an uncensored comedy persona. Users upload a photo or type their specs, and the app pipelines a vision model to describe the build, an LLM to write a savage roast, and a TTS engine to read it aloud with autoplay. Features drag-and-drop upload, a savage-o-meter intensity slider, full dark/light theming, and a terminal-glitch aesthetic built around a two-stage async result flow.',
+    Code: 'https://github.com/JhonLlyod-dev/roastmypc',
+    Live: 'https://roastmypc.vercel.app/',
+    type: 'website',
+    access: 'public'
+  },
+  {
     name: 'Automated SEO workflow',
     tech: ['n8n','Webhook', 'IndexNow API', 'Telegram'],
     img: 'https://i.imgur.com/stKoIkp.png',
