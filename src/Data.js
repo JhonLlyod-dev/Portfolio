@@ -24,6 +24,7 @@ export const Tools = [
   { name: 'ChatGPT', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/960px-ChatGPT_logo.svg.png?_=20230903231118' },
   { name: 'Git', icon: 'https://avatars.githubusercontent.com/u/18133?s=200&v=4' },
   { name: 'Vercel', icon: 'https://karmanivero.us/assets/images/logo-vercel.png' },
+  { name: 'Hostinger', icon: 'https://yt3.googleusercontent.com/-g1yXVdo-xGsVFkeennDG9eofh2tSRosgqCB-xspMNlDl4x6EGyBWDTh9nSMwiD1MN8WFyk_Iw=s900-c-k-c0x00ffffff-no-rj' },
   { name: 'Figma', icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968705.png' },
   { name: 'Sanity', icon: 'https://www.represent.no/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ftg407r31%2Fproduction%2F39f54d8453cf0502b7fc74c1d9ad4d1bb005c697-1080x1080.jpg%3Fauto%3Dformat&w=3840&q=75' },
 ];
